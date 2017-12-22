@@ -1,0 +1,28 @@
+# diff
+# Betaflight / SPRACINGF3 (SRF3) 3.2.0 Sep 28 2017 / 16:45:44 (ceb6f70) MSP API: 1.36
+name SK_Falcon_180
+
+feature -RX_PPM
+feature -TELEMETRY
+feature -TRANSPONDER
+feature RX_SERIAL
+feature ANTI_GRAVITY
+serial 2 64 115200 57600 0 115200
+aux 0 0 0 1300 2100
+aux 1 1 1 900 1300
+aux 2 28 1 1300 1700
+set gyro_sync_denom = 2
+set gyro_notch1_hz = 0
+set gyro_notch2_hz = 0
+set acc_trim_pitch = -2
+set baro_hardware = NONE
+set serialrx_provider = IBUS
+set min_throttle = 1030
+set align_board_yaw = 90
+set deadband = 1
+set yaw_deadband = 1
+profile 0
+
+set dterm_lowpass_type = PT1
+set dterm_notch_hz = 0
+rateprofile 0
