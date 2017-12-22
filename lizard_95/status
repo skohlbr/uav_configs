@@ -1,0 +1,9 @@
+# status
+System Uptime: 168 seconds
+Voltage: 40 * 0.1V (1S battery - OK)
+CPU Clock=72MHz, GYRO=MPU6000, ACC=MPU6000
+SD card: None inserted
+Stack size: 2048, Stack address: 0x10002000
+I2C Errors: 0, config size: 2043, max available config: 4096
+CPU:12%, cycle time: 255, GYRO rate: 3921, RX rate: 49, System rate: 9
+Arming disable flags: 0x1044
