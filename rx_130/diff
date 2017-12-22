@@ -1,0 +1,21 @@
+# diff
+# Betaflight / SPRACINGF3 (SRF3) 3.2.2 Nov 11 2017 / 00:44:04 (77782e602) MSP API: 1.36
+
+feature -RX_PPM
+feature -TRANSPONDER
+feature RX_SERIAL
+feature DYNAMIC_FILTER
+serial 2 64 115200 57600 0 115200
+aux 0 0 0 1300 2100
+set gyro_sync_denom = 2
+set gyro_notch1_hz = 0
+set gyro_notch1_cutoff = 0
+set gyro_notch2_hz = 0
+set gyro_notch2_cutoff = 0
+set baro_hardware = NONE
+set serialrx_provider = IBUS
+set motor_pwm_protocol = DSHOT600
+set align_board_yaw = -90
+profile 2
+
+rateprofile 0g

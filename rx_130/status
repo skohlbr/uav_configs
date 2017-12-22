@@ -1,0 +1,8 @@
+# status
+System Uptime: 1607 seconds
+Voltage: 9 * 0.1V (0S battery - NOT PRESENT)
+CPU Clock=72MHz, GYRO=MPU6050, ACC=MPU6050.n
+Stack size: 2048, Stack address: 0x10002000
+I2C Errors: 0, config size: 2008, max available config: 4096
+CPU:31%, cycle time: 297, GYRO rate: 3367, RX rate: 49, System rate: 9
+Arming disable flags: RXLOSS ANGLE CLI
